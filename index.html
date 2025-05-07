@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>June Esportes e Recreação</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <div id="header"></div>
+
+  <!-- Personal Kids -->
+  <div id="personal-kids"></div>
+
+  <!-- Colônia de Férias -->
+  <div id="colonia"></div>
+
+  <!-- Recreação -->
+  <div id="recreacao"></div>
+
+  <!-- Oficinas -->
+  <div id="oficinas"></div>
+
+  <!-- Brinquedos -->
+  <div id="brinquedos"></div>
+
+  <section class="galeria">
+    <div class="container">
+      <h2 class="titulo-secao">📸 Nossa Galeria</h2>
+      <p class="descricao-secao">Acompanhe um pouco da diversão e dos momentos incríveis que proporcionamos!</p>
+  
+      <!-- SnapWidget -->
+      <div class="instagram-galeria">
+        <script src="https://snapwidget.com/js/snapwidget.js"></script>
+        <iframe 
+          src="https://snapwidget.com/embed/1095407" 
+          class="snapwidget-widget" 
+          allowtransparency="true" 
+          frameborder="0" 
+          scrolling="no" 
+          style="border:none; overflow:hidden; width:100%;" 
+          title="Posts from Instagram">
+        </iframe>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Contato -->
+  <div id="contato"></div>
+
+  <!-- Script para carregar seções -->
+  <script src="scripts.js"></script>
+  <script>
+    const toggleBtn = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+  
+    toggleBtn.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  </script>
+  
+</body>
+</html>
+<style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+  <footer class="footer">
+    <div class="footer-content">
+      <h3>June Esportes & Recreação</h3>
+      <p>Especialistas em diversão, movimento e inclusão infantil!</p>
+  
+      <div class="footer-links">
+        <a href="https://wa.me/5512983107285" target="_blank">WhatsApp</a>
+        <a href="https://www.instagram.com/@june.esportes_e_recreacao" target="_blank">Instagram</a>
+        <a href="mailto:june.esporteserecreacao@gmail.com">E-mail</a>
+      </div>
+  
+      <p class="copyright">
+        &copy; 2025 June Esportes & Recreação. Todos os direitos reservados.
+      </p>
+    </div>
+  </footer>
+  
